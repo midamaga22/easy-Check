@@ -1,0 +1,83 @@
+body {
+  display: flex; 
+  margin: 0;
+  align-items: center;
+}
+
+.container-check{
+  width: 854px;
+  max-width: 854px;
+  height: 406px;
+  min-height: 406px;
+  overflow: hidden;
+  display: flex; 
+  margin: 0;
+}
+
+.check-left {
+  width: 27%; 
+  height: 406px
+}
+
+.video-container-left{
+  max-height: 407px; 
+  width: 100%;
+}
+
+.check-right{
+  width: 73%;
+  max-width: 73%;
+  height: 100vh; 
+  max-height: 100vh;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  background-color:#fafaf5;
+}
+
+.currency-price{
+  background-color: #ffffff;
+  width: 420px; 
+  height: 100px;
+  border-radius: 12px; 
+  position: absolute; 
+  justify-content: center; 
+  margin-top: 25px;
+
+}
+
+.grip-icons-currency{
+  display: grid;
+  gap: 40px;
+  margin-top: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.icons-currency{
+  width: 50px;
+}
+
+.price-size{
+  margin-top: 9PX;
+  font-size: 0.7rem;
+}
+
+.query-box{
+  width: 420px; 
+  height: 235px; 
+  background-color: #ffffff; 
+  border-radius: 12px; 
+  margin-top: 148px;
+
+}
+
+.icons-bar{
+  width: 50%; 
+  margin-top: 5px;
+}
+
+.arrow-ico{
+  transform: rotate(90deg);
+  width: 14%;
+  margin-top: 20px;
+}
